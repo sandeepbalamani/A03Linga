@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>balamani sandeep linga</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+	body{
+		background-image:url("http://livehdwallpaper.com/wp-content/uploads/2016/08/Great-White-Shark-Wallpapers-HD-images.jpg"); 
+	}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    font-family: Algerian;
+    overflow: hidden;
+    background-color: skyblue;
+    overflow: auto;
+}
+		li {
+    float: left;
+}
+li a{
+    display: block;
+    text-align:center;
+    color:balck;
+    padding: 12px;
+    text-decoration: none;
+}
+form{
+	text-align: center;
+	font-size: 25px;
+}
+
+
+	</style>
+	<script type="text/javascript">
+	function multiplyBy()  
+{  
+        num1 = document.getElementById("firstNumber").value;  
+        num2 = document.getElementById("secondNumber").value;  
+        document.getElementById("result").innerHTML = num1 * num2;  
+}  
+</script>  
+</head>
+<body>
+
+			<ul>
+				<li><a href="#">SANDEEP</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="guestbook">Guestbook</a></li>
+
+			</ul>
+		<h1 style="color:yellow; text-align:center;">ORDER FOR THE FRESH FISH MEAT</h1><br>
+			<form>  
+Menu: <select id="firstNumber">
+<option>select fish</option>
+<option  value="15.26">Cat fish</option>
+<option value="29.17">Tuna fish</option>
+<option value="110.83">Shark fish</option>
+</select> <br><br>
+enter your quantity: kgs<select id="secondNumber">
+<option>quantity in kgs</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option> 
+<option value="5">5</option> 
+<option value="6">6</option> 
+<option value="7">7</option> 
+
+</select> <br><br>
+<input type="button" onClick="multiplyBy()" Value="buy now" />  <br>
+ <p>The Total cost is :$
+<span id = "result"></span>  
+</p> 
+</form>  
+ 
+      </body>
+</html>
